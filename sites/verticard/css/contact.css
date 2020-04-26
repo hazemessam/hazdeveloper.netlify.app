@@ -1,0 +1,67 @@
+/* Start Main-container */
+.main-container .inner-container{
+    margin: 0px auto;
+}
+
+.main-container .slider {
+    height: 270px;
+    background-image: url("../images/contact.jpg");
+
+}
+.main-container .slider .black {
+    height: 100%;
+    padding-top: 1px;
+    background-color: rgba(0, 0, 0, .4)
+}
+
+.main-container .slider .inner-container h1 {
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 40px 
+
+}
+
+.main-container .slider .inner-container p {
+    color: #ffffff;
+    line-height: 1.8
+}
+
+.main-container form {
+    margin-top: 60px;
+    text-align: center
+}
+
+.main-container form .inner-container input,
+.main-container form .inner-container textarea {
+    border: none;
+    border-bottom: 2px solid #DDD;
+    padding: 10px 0 ;
+    font-size: 14pt;
+    margin: 0 0 15px 0;
+    width: 70%;
+    color: #888;
+    outline: none;
+}
+
+.main-container form .inner-container input[type="submit"] {
+    display: block;
+    background: #9999CC;
+    color: #FFF;
+    cursor: pointer;
+    width: 25%;
+    padding: 15px 0;
+    margin: 7px auto
+}
+
+.main-container form .inner-container input:hover,
+.main-container form .inner-container input:focus,
+.main-container form .inner-container textarea:hover, 
+.main-container form .inner-container textarea:focus {
+    border-bottom: 2px solid #9999CC;
+}
+
+.main-container form .inner-container input[type="submit"]:hover {
+    background: #9999FE;
+}
+
+/* End Main-container */

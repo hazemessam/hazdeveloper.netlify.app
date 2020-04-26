@@ -1,0 +1,61 @@
+body {
+    height: 700px;
+    background: url("../img/forest-4k.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+    z-index: 1;
+}
+
+body::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+header {
+    font-size: 20pt;
+    font-weight: 300;
+    padding: 15px 20px;
+}
+
+.container {
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container h1 {
+    font-size: 32pt;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.container span {
+    border-top: 2px solid #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 12pt;    
+}
+
+footer a {
+    color: #fff;
+}

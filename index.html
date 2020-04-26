@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HazDeveloper</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/loading.css">
+        <link rel="stylesheet" href="css/rm-brand.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="shortcut icon" href="img/icon.png">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/fontawesome.min.js"></script>
+        <style>
+            ::-webkit-scrollbar {width: 10px}
+            ::-webkit-scrollbar-track {background: #211C35}
+            ::-webkit-scrollbar-thumb {
+                background: rgba(0, 0, 0, .5);
+                border-radius: 15px;
+            }
+            ::-webkit-scrollbar-thumb:hover {background: rgba(0, 0, 0, .6)}
+            html {scroll-behavior: smooth}
+            body {
+                font-family: Helvetica, sans-serif; 
+                background-image: url("img/bg.png");
+                background-size: cover;
+                background-color: #201C35;
+                background-attachment: fixed;
+            }
+            body::before {
+                content: "";
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, .6);
+                z-index: -1;
+            }
+            h1 {
+                text-align: center;
+                color: #fff;
+                padding: 10px;
+                font-size: 33pt;
+                font-weight: 500;
+                font-family: sans-serif;
+            }
+            .option {
+                display: block;
+                margin: 10px 15%;
+                color: #fff;
+                background: rgba(0, 0,  0, .1);
+                text-decoration: none;
+                padding: 10px 12px;
+                text-align: center;
+                border: 2px solid #fff;
+                border-radius: 24px;
+                font-size: 16pt;
+                transition: .4s;
+            }
+            .option:hover {
+                background: rgba(0, 0,  0, .4);
+		        margin: 10px 14%;
+            }
+            footer {
+                text-align: center;
+                color: #fff;
+                padding: 15px;
+            }
+            .codewars {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+            }
+            .social {
+                position: fixed;
+                /* bottom: 0; */
+                left: 0;
+                top: 70%;
+                /* transform: translateY(-50%); */
+                text-align: center;
+                background: rgba(0, 0, 0, .5);
+                border: 2px solid #fff;
+                border-right: none;
+                border-top: none;
+                border-bottom: none;
+                border-bottom-right-radius: 20px;
+                border-top-right-radius: 20px;
+                padding: 5px 8px;
+            }
+            .social a {
+                text-decoration: none}
+            .social a i {
+                color: #fff;
+                font-size: 1.2em;
+                margin: 3px 0;
+                border: 2px solid #fff;
+                padding: 8px;
+                border-radius: 75%;
+                transition: .4s;
+            }
+            /* .social a i.fa-facebook-f:hover {
+                background: linear-gradient(to bottom, #00c6ff, #0084ff);
+            } */
+            .social a i.fa-github:hover {
+                background: #24292E;
+            }
+            .social a i.fa-linkedin-in:hover {
+                background: #0077b5;
+            }
+            .social a i.fa-at:hover {
+                background: #b23221;
+            }
+            /* Responsive */
+            @media (max-width: 600px) {
+                .social {display: none}
+                .codewars {
+                    left: 50%;
+                    transform: translateX(-50%)
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>HazDeveloper</h1>
+        <!-- Start Options -->
+        <a href="sites/form-v1/index.html" target="_blank" class="option">Form v1</a>
+        <a href="sites/the-town/index.html" target="_blank" class="option">The Town</a>
+        <a href="sites/verticard/index.html" target="_blank" class="option">Cards</a>
+        <a href="sites/slider/index.html" target="_blank" class="option">Slider</a>
+        <a href="sites/form-v2/index.html" target="_blank" class="option">Form v2</a>
+        <a href="sites/facebook/index.html" target="_blank" class="option">Facebook</a>
+        <a href="sites/portfolio-v1/index.html" target="_blank" class="option">Portfolio v1</a>
+        <a href="sites/calculator-v1/index.html" target="_blank" class="option">Calculator v1</a>
+        <a href="sites/calculator-v2/index.html" target="_blank" class="option">Calculator v2</a>
+        <a href="sites/about-us/index.html" target="_blank" class="option">About Us</a>
+        <!-- End Options -->
+        <footer>Copyright &copy; 2020 HazDeveloper.</footer>
+        <!-- Start Codewar -->
+        <a href="https://www.codewars.com/users/hazemessam" target="_blank" class="codewars">
+            <img src="https://www.codewars.com/users/hazemessam/badges/small">
+        </a>
+        <!-- End Codewar -->
+        <!-- Start Social -->
+        <div class="social">
+            <a href="https://www.linkedin.com/in/hazem-essam-090997180" target="_blank">
+                <i class="fab fa-linkedin-in fa-1x"></i>
+            </a><br>
+            <a href="https://www.github.com/hazemessam" target="_blank">
+                <!-- <i class="fab fa-facebook-f fa-1x" style="padding: 8px 11px;"></i> -->
+                <i class="fab fa-github fa-1x"></i>
+            </a><br>
+            <a href="mailto:hazemkwita123@gmail.com">
+                <i class="fas fa-at fa-1x"></i>
+            </a>
+        </div>
+        <!-- End Social -->
+        <!-- Start Preloading -->
+        <div class="loader-wrapper" id="loader">
+            <span class="loader">
+                <span class="loader-inner"></span>
+            </span>
+        </div>
+        <script src="/js/loading.js"></script>
+        <!-- End Preloading -->
+    </body>
+</html>

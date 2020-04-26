@@ -1,0 +1,359 @@
+/* Start Main Rules */
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		"Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+		"Segoe UI Symbol", "Noto Color Emoji";
+	line-height: 1.6;
+}
+.container {
+	width: 1215px;
+	margin: 0 auto;
+}
+
+input::placeholder {
+	color: #fff;
+}
+/* End Main Rules */
+
+/* Start Nav */
+nav {
+	width: 100%;
+	height: 70px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+}
+
+nav .logo {
+	width: 20%;
+	height: 100%;
+	padding: 20px;
+	margin-left: 20px;
+	font-weight: bold;
+	float: left;
+}
+
+nav .logo a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18pt;
+	transition: 0.4s;
+}
+
+nav .menu {
+	width: 44%;
+	height: 80px;
+	float: right;
+}
+
+nav .menu ul {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	list-style: none;
+}
+
+nav .menu ul li {
+	float: left;
+	padding: 7px 30px;
+}
+
+nav .menu ul li a {
+	text-decoration: none;
+	font-size: 15pt;
+	transition: 0.4s;
+	color: #fff;
+}
+
+nav .logo a:hover,
+nav .menu ul li a:hover {
+	color: #285c94;
+}
+/* End Nav */
+
+/* Start Preface */
+.preface {
+	height: 930px;
+	background: url("../images/the-town-bg-01.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	color: #fff;
+}
+
+.preface .intro {
+	text-align: center;
+	padding: 320px 0 190px 0;
+}
+
+.preface .intro h1 {
+	display: inline-block;
+	width: 300px;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	font-size: 42pt;
+	font-weight: 600;
+	border-top: 5px solid #fff;
+	border-bottom: 5px solid #fff;
+}
+
+.preface .intro p {
+	font-size: 15pt;
+}
+
+.preface .down {
+	text-align: center;
+}
+
+.preface .down a {
+	color: #fff;
+}
+/* End Preface */
+
+/* Start Introduction */
+.introduction {
+	height: 600px;
+	overflow: hidden;
+}
+
+.introduction .street-img {
+	width: 50%;
+	height: 500px;
+	margin-top: 100px;
+	float: left;
+}
+
+.introduction .street-img img {
+	width: 100%;
+}
+
+.introduction .info {
+	width: 50%;
+	margin-top: 100px;
+	float: right;
+}
+
+.introduction .info h2 {
+	margin-left: 70px;
+	margin-top: 5px;
+	color: #3496d8;
+	font-size: 35pt;
+	font-weight: 400;
+}
+
+.introduction .info p {
+	margin-left: 70px;
+	color: #8f8f8f;
+	font-size: 16pt;
+}
+
+.introduction .info p a {
+	text-decoration: none;
+	color: #3496d8;
+}
+
+.introduction .info button {
+	margin-left: 70px;
+	padding: 15px 20px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 100px;
+	font-size: 17pt;
+	background: #3496d8;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+}
+/* End Introduction */
+
+/* Start Features */
+.features {
+	height: 370px;
+	overflow: hidden;
+	background: #efefef;
+}
+
+.features .feat {
+	width: 33.3%;
+	height: 100%;
+	float: left;
+}
+
+.features .feat i {
+	display: block;
+	color: #3496d8;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.features .feat h2 {
+	color: #3496d8;
+	font-weight: 500;
+	text-align: center;
+}
+
+.features .feat p {
+	color: #8f8f8f;
+	font-size: 14pt;
+	margin: 30px 30px 0 20px;
+}
+/* End Features */
+
+/* Start Our Work */
+.our-work {
+	height: 680px;
+}
+
+.our-work h1 {
+	color: #3496d8;
+	font-size: 35pt;
+	font-weight: 500;
+	text-align: center;
+}
+
+.our-work q {
+	display: block;
+	color: #8f8f8f;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.our-work .examples {
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+
+.our-work .examples div {
+	width: 23%;
+	margin-right: 2%;
+	float: left;
+}
+
+.our-work .examples div img {
+	width: 100%;
+	height: 100%;
+}
+
+.our-work .bullets {
+	height: 30px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.our-work .bullets .bullet {
+	display: inline-block;
+	padding: 10px;
+	background-color: #ccc;
+	border-radius: 100px;
+	margin: 20px 10px;
+}
+
+.our-work .bullets .bullet:hover,
+.our-work .bullets .active {
+	background-color: #3496d8;
+	cursor: pointer;
+}
+/* Our Work */
+
+/* Start Contact Us */
+.contact-us {
+	height: 730px;
+	background: url("../images/the-town-bg-02.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	color: #fff;
+	padding-top: 10px;
+	position: relative;
+}
+
+.contact-us .container {
+	width: 1000px;
+}
+
+.contact-us h1 {
+	border-bottom: 2px solid #fff;
+	padding: 20px 0;
+	font-weight: 400;
+	font-size: 35pt;
+	margin-top: 100px;
+}
+
+.contact-us p {
+	font-size: 14pt;
+}
+
+.contact-us .info {
+	height: 50px;
+	overflow: hidden;
+	margin: 50px 0;
+}
+
+.contact-us .info div {
+	width: 33.3%;
+	height: 100%;
+	float: left;
+}
+
+.contact-us .info div a {
+	color: #fff;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.contact-us .info div a:hover {
+	color: #3496d8;
+}
+
+.contact-us .info div a i {
+	width: 20%;
+	float: left;
+}
+
+.contact-us .info div a span {
+	width: 80%;
+	font-size: 16pt;
+	float: right;
+}
+
+.contact-us form {
+	overflow: hidden;
+	text-align: center;
+	margin-top: 85px;
+}
+
+.contact-us form input[type="email"] {
+	width: 21%;
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 7px;
+	padding: 15px 20px;
+	color: #fff;
+	outline: none;
+}
+
+.contact-us form input[type="submit"] {
+	width: 10%;
+	border: 1px solid #fff;
+	border-radius: 7px;
+	padding: 15px 20px;
+	background: #fff;
+	color: #000;
+	outline: none;
+	cursor: pointer;
+}
+
+.contact-us form input[type="submit"]:hover {
+	background: #ddd;
+}
+
+.contact-us .copyright {
+	width: 80%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	padding: 20px 0;
+}
+/* End Contact Us */

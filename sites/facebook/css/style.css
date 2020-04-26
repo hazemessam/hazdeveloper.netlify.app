@@ -1,0 +1,141 @@
+* {
+    font-family: helvetica, sans-serif
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    background-color: #ddd;
+}
+
+header {
+    background-color: #3B5998;
+    color: #FFF;
+    overflow: hidden;
+}
+
+header .logo {
+    float: left;
+}
+
+header .logo h1 {
+    font-size: 34pt;
+    font-weight: 600;
+}
+
+header .sign-in {
+    float: right;
+    margin-top: 22px;
+}
+
+header .sign-in input {
+    border: none;
+    padding: 5px;
+}
+
+header .sign-in input[type='submit'] {
+    background-color: #3B5998;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+}
+
+header .sign-in a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+header .sign-in table td {
+    padding: 0 6px;
+}
+
+main .container{
+    overflow: hidden;
+}
+
+main .container .l-side {
+    width: 50%;
+    float: left;
+}
+
+main .container .l-side p {
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+
+main .sign-up h1 {
+    margin: 25px 0 10px 0;
+    font-size: 26pt;
+}
+
+main .sign-up p {
+    margin-top: 0;
+    font-weight: 500;
+}
+
+main .container .sign-up input {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 8px;
+    width: 84%
+}
+
+main .container .sign-up input[placeholder="First name"],
+main .container .sign-up input[placeholder="Last name"] {
+    width: 40%;
+}
+
+main .sign-up h3 {
+    margin: 20px 0 8px 0;
+}
+
+main .container .sign-up input[type="date"] {
+    width: auto;
+}
+
+.bd-link {
+    text-decoration: none;
+    font-size: 11pt;
+    color: #3B5998;
+    width: 30px;
+}
+
+main .container .sign-up input[name="gender"] {
+    width: auto;
+    margin: 10px 0;
+}
+
+main .container .sign-up .policy {
+    font-size: 10pt;
+    width: 84%;
+}
+
+main .container .sign-up .policy a {
+    text-decoration: none;
+    color: #3B5998
+}
+
+main .container .sign-up input[type="submit"] {
+    width: 30%;
+    color: #fff;
+    background-color: forestgreen;
+    font-weight: bold;
+    border: 1px solid #fff;
+}
+
+main .container .sign-up input[type="submit"]:hover {
+    transition: .4s;
+    color: forestgreen;
+    background-color: #fff;
+    border-color: forestgreen;
+    cursor: pointer;
+}

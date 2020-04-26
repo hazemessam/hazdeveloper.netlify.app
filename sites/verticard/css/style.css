@@ -1,0 +1,152 @@
+/* start Main Roles */
+body {
+    background: #EDEDED;
+    color: #ACA89D;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    width: 600px;
+    height: 850px;
+    background: #FFF;
+    margin: 0 auto;
+    margin-bottom: 200px; 
+    border-radius: 20px;
+    overflow: hidden
+}
+
+.main-container .inner-container {
+    width: 500px;
+    margin: 50px auto
+}
+/* End Main Roles */ 
+
+/* Start Intro */
+.intro {
+    width: 250px;
+    height: 100px;
+    margin: 50px auto;
+    margin-bottom: 60px;
+    text-align: center
+}
+
+.intro h1 {
+    width: 100%;
+    padding: 20px 0;
+    margin: 0;
+    color: #817A7F;
+    font-size: 24pt;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+.intro p {
+    widows: 100%;
+    margin: 0;
+    color: #95C3C2;
+    font-size: 16pt;
+    font-style: italic
+}
+/* End Intro */
+
+/* Start Nav */
+nav {
+    display: inline-block;
+    position: absolute;
+    top: 225px;
+    right: 200px;
+}
+
+nav ul {
+    list-style: none
+}
+
+nav ul li {
+    padding: 7px
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(129, 128, 141);
+    font-size: 14pt;
+    position: relative;
+}
+
+nav ul li a i.fas {
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #2F94C8
+}
+
+nav ul li a.active i.fas {
+    visibility: visible
+}
+
+/* End Nav */
+
+/* Start Footer */
+footer {
+    position: relative;
+    bottom: 25px;
+    overflow: hidden;
+}
+
+footer .inner-container {
+    width: 600px;
+    margin: 0 auto
+}
+
+footer .copyright {
+    float: left
+}
+
+footer .design-by {
+    float: right
+}
+/*End Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
