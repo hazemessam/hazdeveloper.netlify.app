@@ -1,0 +1,5 @@
+#files/
+sass/
+security/
+#.gitignore
+.htaccess

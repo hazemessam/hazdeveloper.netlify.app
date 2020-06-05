@@ -1,0 +1,10 @@
+My-Domain: hazdeveloper.online
+Second-Domain: hazdev.000webhostapp.com
+---------------------------------
+Hostname: files.000webhost.com
+Username: hazdev
+Password: NN
+---------------------------------
+Domain Booking-site: GoDaddy
+Current-host-site: 000webhost
+Recommended-host-site: 000webhost
