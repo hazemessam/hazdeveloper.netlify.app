@@ -1,8 +1,0 @@
-C++:
-https://www.udemy.com/beginning-c-plus-plus-programming/?fbclid=IwAR0S9_3fYYcVnVlsSH1Mktu4qVgMxK9AsEh6IbtL2TJ80GiXj9nTr8rJSUE
--------------------------------------------------------
-Data Structured & Algorithms:
-https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/?fbclid=IwAR131qzTjNNntJmgUBjGnoiHH7C8DI0Om3lOsuZLstSaytVZTxBiMqZyBgE
--------------------------------------------------------
-Design Patterns:
-https://www.udemy.com/java-design-patterns-course/?fbclid=IwAR3lrDazggwr1xFWjgPMdBWCPzJkROyFtVjEgUl8hYD0f0_FG4GFIxs5RV8

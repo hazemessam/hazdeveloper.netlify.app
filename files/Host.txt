@@ -1,7 +1,0 @@
-My-Domain: hazdeveloper.netlify.app
----------------------------------
-login with github 
----------------------------------
-Domain Booking-site: GoDaddy
-Current-host-site: netlify
-Recommended-host-site: netlify
