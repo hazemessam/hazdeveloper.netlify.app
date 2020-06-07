@@ -13,7 +13,7 @@ html {scroll-behavior: smooth}
 
 body {
     font-family: Helvetica, sans-serif; 
-    background-image: url("img/bg.jpg");
+    background-image: url("../img/bg.jpg");
     background-size: cover;
     background-color: #201C35;
     background-attachment: fixed;
